@@ -22,7 +22,18 @@ No GitHub account is needed.
 
 The app needs Microsoft Edge WebView2, which Windows 10 and 11 already have; if it is missing, the setup downloads it once.
 
+## Download for Mac (Apple Silicon and Intel, macOS 11 or later)
+
+- [GST-Recon-macOS.dmg](https://github.com/tirthshah1810/gst-recon-releases/releases/latest/download/GST-Recon-macOS.dmg)
+
+1. Open the downloaded `GST-Recon-macOS.dmg` and drag **GST Recon** into **Applications**.
+2. Open GST Recon from Applications. The first time, macOS says it cannot verify the developer, because the app is not
+   yet notarised by Apple. Click **Done** (or **OK**).
+3. Open **System Settings → Privacy & Security**, scroll down to the message about GST Recon and click **Open Anyway**,
+   then confirm with your Mac password. From then on it opens normally.
+
 ## Your data
 
 Everything stays on the computer. The database and its weekly backups are in
-`C:\Users\<you>\AppData\Roaming\in.gstrecon.desktop\`. Use **Settings and backup → Back up now** to keep a copy elsewhere.
+`C:\Users\<you>\AppData\Roaming\in.gstrecon.desktop\` on Windows and
+`~/Library/Application Support/in.gstrecon.desktop/` on a Mac. Use **Settings and backup → Back up now** to keep a copy elsewhere.
